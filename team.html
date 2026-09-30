@@ -1,5 +1,5 @@
-<!-- ===== TEAM PAGE ===== -->
 <!doctype html>
+<!-- ===== TEAM PAGE ===== -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -72,7 +72,9 @@
             Builds everything you see and click. If a button looks
             <strong>sharp on your phone</strong>, that&apos;s Caleb&apos;s work.
           </p>
-          <p><a href="https://github.com/caleb">View Profile</a></p>
+          <p>
+            <a href="https://github.com/caleb" target="_blank">View Profile</a>
+          </p>
         </article>
         <br />
 
@@ -93,7 +95,7 @@
         </article>
         <br />
         <article>
-          <img src="images/evans image.jpg" alt="Photo of Evans" width="200" />
+          <img src="images/evans-image.jpg" alt="Photo of Evans" width="200" />
           <h3>Evans</h3>
           <p><em>Project Manager</em></p>
           <p>
@@ -128,7 +130,7 @@
           </p>
         </article>
       </section>
-      <br />
+
       <hr />
 
       <!-- How We Work (Ordered List) -->
@@ -137,8 +139,8 @@
 
         <ol>
           <li>
-            <strong>Discovery:</strong>Enoch and Evans learn your business, your
-            customers and your goals.
+            <strong>Discovery:</strong> Enoch and Evans learn your business,
+            your customers and your goals.
           </li>
           <li>
             <strong>Design:</strong>Simon sketches the layout so you see the
@@ -154,7 +156,6 @@
           </li>
         </ol>
       </section>
-      <br />
 
       <!-- Join The Team (Form) -->
       <section>
@@ -180,10 +181,11 @@
           <p>
             <label for="role">Role you&apos;re applying for</label><br />
             <select id="role" name="role" required>
+              <option value="">choose a role</option>
               <option value="frontend">Frontend Developer</option>
               <option value="backend">Backend Developer</option>
               <option value="design">UI/UX Designer</option>
-              <option value="pm">Product Manager</option>
+              <option value="pm">Project Manager</option>
             </select>
           </p>
           <p>
@@ -192,12 +194,58 @@
           </p>
           <p>
             <label for="message">Why Pearl Digital?</label><br />
-            <textarea id="message" name="mesage" rows="5" cols="40"></textarea>
+            <textarea id="message" name="message" rows="5" cols="40"></textarea>
           </p>
 
           <p><button type="submit">Send Application</button></p>
         </form>
       </section>
     </main>
+    <hr />
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <p>
+        <strong>Pearl Digital</strong> builds fast, clean websites for Nairobi
+        businesses that want more customers.
+      </p>
+
+      <h2>Contact Us</h2>
+      <address>
+        Pearl Digital<br />
+        4th Floor, Kilimani Business Centre<br />
+        Argwings Kodhek Road<br />
+        P.O. Box 12345-00100<br />
+        Nairobi, Kenya<br />
+
+        <a href="mailto:hello@pearldigital.co.ke">hello@pearldigital.co.ke</a
+        ><br />
+        <a href="tel:+254712345678">+254 712 345 678</a>
+      </address>
+
+      <h2>Office hours</h2>
+      <p>
+        Monday &ndash; Friday: 8:00am &ndash; 5:00pm<br />
+        Saturday: 9:00am &ndash; 1:00pm
+      </p>
+
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="landing.html">Home</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <h2>Follow Us</h2>
+      <p>
+        <a href="https://instagram.com" target="_blank">Instagram</a><br />
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a><br />
+        <a href="https://github.com" target="_blank">GitHub</a><br />
+      </p>
+
+      <p>&copy; 2026 Scale Agency. All rights reserved.</p>
+    </footer>
   </body>
 </html>
